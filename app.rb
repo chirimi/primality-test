@@ -1,3 +1,4 @@
+#入力された値nが素数かどうか判定するプログラム
 def hantei(n)
     num = 0
     for i in 1..n + 1 do
@@ -12,6 +13,7 @@ def hantei(n)
         result = false
     end
 end
+
 
 puts "素数かどうか判定したい整数を入力してください"
 value = gets
