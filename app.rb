@@ -14,7 +14,6 @@ def hantei(n)
     end
 end
 
-
 puts "素数かどうか判定したい整数を入力してください"
 value = gets
 if hantei(value.to_i)
